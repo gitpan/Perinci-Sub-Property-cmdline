@@ -1,0 +1,42 @@
+NAME
+    Perinci::Sub::Property::cmdline - Specify command-line attributes
+
+VERSION
+    This document describes version 0.01 of Perinci::Sub::Property::cmdline
+    (from Perl distribution Perinci-Sub-Property-cmdline), released on
+    2014-10-28.
+
+SYNOPSIS
+    In function Rinci metadata:
+
+     "cmdline.default_format" => "text",
+
+DESCRIPTION
+    Currently this property does nothing by itself, it is just a namespace
+    for specifying command-line-related attributes (like shown in Synopsis).
+
+HOMEPAGE
+    Please visit the project's homepage at
+    <https://metacpan.org/release/Perinci-Sub-Property-cmdline>.
+
+SOURCE
+    Source repository is at
+    <https://github.com/perlancar/perl-Perinci-Sub-Property-cmdline>.
+
+BUGS
+    Please report any bugs or feature requests on the bugtracker website
+    <https://rt.cpan.org/Public/Dist/Display.html?Name=Perinci-Sub-Property-
+    cmdline>
+
+    When submitting a bug or request, please include a test-file or a patch
+    to an existing test-file that illustrates the bug or desired feature.
+
+AUTHOR
+    perlancar <perlancar@cpan.org>
+
+COPYRIGHT AND LICENSE
+    This software is copyright (c) 2014 by perlancar@cpan.org.
+
+    This is free software; you can redistribute it and/or modify it under
+    the same terms as the Perl 5 programming language system itself.
+
