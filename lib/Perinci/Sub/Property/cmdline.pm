@@ -1,7 +1,7 @@
 package Perinci::Sub::Property::cmdline;
 
 our $DATE = '2014-10-28'; # DATE
-our $VERSION = '0.01'; # VERSION
+our $VERSION = '0.02'; # VERSION
 
 use 5.010001;
 use strict;
@@ -13,6 +13,10 @@ declare_property(
     name => 'cmdline',
     type => 'function',
     schema => ['any'],
+    wrapper => {
+        meta => {},
+        handler => sub {},
+    },
 );
 
 1;
@@ -30,7 +34,7 @@ Perinci::Sub::Property::cmdline - Specify command-line attributes
 
 =head1 VERSION
 
-This document describes version 0.01 of Perinci::Sub::Property::cmdline (from Perl distribution Perinci-Sub-Property-cmdline), released on 2014-10-28.
+This document describes version 0.02 of Perinci::Sub::Property::cmdline (from Perl distribution Perinci-Sub-Property-cmdline), released on 2014-10-28.
 
 =head1 SYNOPSIS
 
